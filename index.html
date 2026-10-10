@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hamza Kasraoui | LinkedIn Positioning Review</title>
+<meta name="description" content="A private LinkedIn positioning review prepared for Hamza Kasraoui.">
+<style>
+:root {
+  --ink:#101214; --muted:#5d646b; --paper:#f7f7f5; --card:#ffffff;
+  --line:#dedfdb; --orange:#f47b20; --navy:#17232d; --soft:#eef0ed;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+a{color:inherit}
+button{font:inherit}
+.topbar{position:fixed;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--orange),#ffad70);z-index:20}
+nav{position:sticky;top:4px;z-index:10;background:rgba(247,247,245,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(222,223,219,.8)}
+.nav-inner{max-width:1180px;margin:auto;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.brand{font-weight:800;letter-spacing:.08em;font-size:12px}
+.navlinks{display:flex;gap:18px;overflow:auto;white-space:nowrap}
+.navlinks a{text-decoration:none;color:var(--muted);font-size:12px;font-weight:700}
+.navlinks a:hover,.navlinks a.active{color:var(--orange)}
+main{max-width:1180px;margin:auto;padding:0 24px}
+.hero{min-height:78vh;display:grid;align-items:end;padding:110px 0 80px;border-bottom:1px solid var(--line)}
+.kicker{color:var(--orange);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.05;letter-spacing:-.035em}
+h1{font-size:clamp(54px,8vw,102px);max-width:900px;margin:0 0 28px}
+.hero p{font-size:clamp(18px,2vw,23px);color:var(--muted);max-width:760px;margin:0}
+.hero-meta{margin-top:34px;display:flex;gap:10px;flex-wrap:wrap}
+.pill{border:1px solid var(--line);padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700;background:#fff}
+.section{padding:92px 0;border-bottom:1px solid var(--line)}
+.section-head{display:grid;grid-template-columns:.8fr 1.5fr;gap:40px;margin-bottom:38px}
+.eyebrow{font-size:11px;font-weight:800;letter-spacing:.13em;color:var(--orange);text-transform:uppercase}
+.section h2{font-size:clamp(36px,5vw,64px);margin:8px 0 0}
+.lede{font-size:18px;color:var(--muted);max-width:700px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.insight,.mini-card,.option,.copybox,.compare-panel{background:var(--card);border:1px solid var(--line);border-radius:20px}
+.insight{padding:26px}
+.insight strong{display:block;font-family:Georgia,serif;font-size:24px;margin:8px 0 10px}
+.insight p,.mini-card p,.option p{color:var(--muted);margin:0}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.compare-panel{padding:28px;min-height:190px}
+.compare-panel.after{border-color:#f2b181}
+.compare-panel blockquote{margin:18px 0 0;font-family:Georgia,serif;font-size:23px;line-height:1.25}
+.callout{margin-top:18px;padding:20px 22px;background:var(--navy);color:#fff;border-radius:18px}
+.callout span{color:#ffb57d}
+.current{font-size:22px;line-height:1.35}
+.option-grid{display:grid;gap:12px}
+.option{padding:22px 24px}
+.option-top{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.option h3{font-size:25px;margin:15px 0 10px;max-width:850px}
+.copy{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 13px;font-size:12px;font-weight:800;cursor:pointer}
+.copy:hover{border-color:var(--orange);color:var(--orange)}
+.copy.copied{background:var(--orange);border-color:var(--orange);color:#fff}
+.copybox{padding:30px;position:relative}
+.copybox .copy{position:absolute;top:22px;right:22px}
+.about{white-space:pre-line;font-size:17px;max-width:850px;padding-right:90px}
+.mini-card{padding:25px}
+.num{font-size:11px;font-weight:900;color:var(--orange);letter-spacing:.1em}
+.mini-card h3{font-size:26px;margin:10px 0}
+.mini-card small{display:block;margin-top:16px;color:var(--navy);font-weight:700}
+.banner-note{display:flex;justify-content:space-between;gap:25px;align-items:center;padding:26px 28px;border:1px solid var(--line);background:#fff;border-radius:20px}
+.banner-note strong{font-family:Georgia,serif;font-size:24px}
+.banner-note a{color:var(--orange);font-weight:800;text-decoration:none}
+.sources{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px}
+.sources a{font-size:12px;color:var(--muted)}
+.footer{padding:60px 0 90px;color:var(--muted);font-size:12px}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:none}
+.progress{position:fixed;top:4px;left:0;height:3px;background:var(--navy);width:0;z-index:30}
+@media (max-width:800px){
+  .nav-inner{padding:12px 16px} .navlinks{display:none} main{padding:0 17px}
+  .hero{min-height:70vh;padding:90px 0 60px} .section{padding:65px 0}
+  .section-head,.compare{grid-template-columns:1fr} .grid3{grid-template-columns:1fr}
+  .banner-note{display:block} .banner-note a{display:inline-block;margin-top:12px}
+  .about{padding-right:0} h1{font-size:clamp(48px,15vw,76px)}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} .reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="topbar"></div><div class="progress" id="progress"></div>
+<nav><div class="nav-inner"><div class="brand">PRIVATE POSITIONING REVIEW</div><div class="navlinks">
+<a href="#overview">Overview</a><a href="#headline">Headline</a><a href="#about">About</a><a href="#featured">Featured</a><a href="#banner">Banner</a><a href="#shift">Shift</a>
+</div></div></nav>
+
+<main>
+<section class="hero" id="overview">
+  <div>
+    <div class="kicker">LinkedIn Positioning Review</div>
+    <h1>Prepared for<br>Hamza Kasraoui.</h1>
+    <p>A clearer founder position for the person building the technology behind Amazon seller operations.</p>
+    <div class="hero-meta"><span class="pill">Founder & CEO, SellerPro 360</span><span class="pill">Software Engineer</span><span class="pill">Amazon seller automation</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><div><div class="eyebrow">01 / What I found</div><h2>The opportunity is clarity.</h2></div>
+  <p class="lede">The profile already has credible ingredients: founder leadership, software engineering, Amazon operations, and a real automation platform. The main opportunity is to make those pieces read as one clear category instead of several adjacent capabilities.</p></div>
+  <div class="grid3">
+    <article class="insight reveal"><span class="eyebrow">Position</span><strong>Builder first.</strong><p>Lead with the fact that Hamza builds automation for Amazon sellers, then support it with the CEO and engineering credentials.</p></article>
+    <article class="insight reveal"><span class="eyebrow">Audience</span><strong>Amazon sellers.</strong><p>SellerPro 360 publicly centers automation, PPC, reviews, analytics, refunds, listings, and marketplace operations.</p></article>
+    <article class="insight reveal"><span class="eyebrow">Proof</span><strong>Show the product.</strong><p>The profile can use the platform itself, practical seller content, and founder build-in-public posts as proof of expertise.</p></article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><div><div class="eyebrow">02 / Current positioning</div><h2>What visitors see today.</h2></div>
+  <p class="lede">The current profile communicates seniority and technical breadth. It is less immediate about the specific audience Hamza is building for and the operational problem the technology is designed to remove.</p></div>
+  <div class="compare">
+    <div class="compare-panel reveal"><span class="eyebrow">Current</span><blockquote>Founder + CEO + software engineer + e-commerce technology.</blockquote></div>
+    <div class="compare-panel after reveal"><span class="eyebrow">Stronger</span><blockquote>Founder and technology builder creating automation for Amazon sellers.</blockquote></div>
+  </div>
+  <div class="callout">A visitor who arrives from a post, referral, or the SellerPro 360 website should understand the <span>who</span>, <span>what</span>, and <span>why</span> in one scan.</div>
+</section>
+
+<section class="section" id="headline">
+  <div class="section-head"><div><div class="eyebrow">03 / Headline</div><h2>Make the first line do more work.</h2></div>
+  <p class="lede">Your current headline is credible, but it reads as a stack of roles and broad descriptors. The strongest revision keeps the founder and engineering authority while making the audience and category unmistakable.</p></div>
+  <div class="copybox reveal"><span class="eyebrow">Current headline</span><p class="current">Founder &amp; CEO, SellerPro 360 | Software Engineer | Building Innovative Automation Solutions for Amazon &amp; Walmart Sellers | eCommerce Technology &amp; Growth</p></div>
+  <div class="option-grid" style="margin-top:14px"><article class="option reveal">
+      <div class="option-top"><span class="eyebrow">OPTION 01</span><button class="copy" data-copy="Founder &amp; CEO at SellerPro 360 | Building Automation for Amazon Sellers | Software Engineer">Copy</button></div>
+      <h3>Founder &amp; CEO at SellerPro 360 | Building Automation for Amazon Sellers | Software Engineer</h3>
+      <p>Leads with the founder role, then makes the audience and core value immediately clear.</p>
+    </article>
+<article class="option reveal">
+      <div class="option-top"><span class="eyebrow">OPTION 02</span><button class="copy" data-copy="I Build Automation for Amazon Sellers | Founder &amp; CEO, SellerPro 360 | Software Engineer">Copy</button></div>
+      <h3>I Build Automation for Amazon Sellers | Founder &amp; CEO, SellerPro 360 | Software Engineer</h3>
+      <p>More personal and creator-led. Strong fit if Hamza wants his profile to feel like a technology builder&#x27;s profile.</p>
+    </article>
+<article class="option reveal">
+      <div class="option-top"><span class="eyebrow">OPTION 03</span><button class="copy" data-copy="Founder &amp; CEO | Amazon Seller Automation, PPC &amp; Marketplace Technology | SellerPro 360">Copy</button></div>
+      <h3>Founder &amp; CEO | Amazon Seller Automation, PPC &amp; Marketplace Technology | SellerPro 360</h3>
+      <p>Makes the category and core product areas searchable without the long list of generic descriptors.</p>
+    </article>
+<article class="option reveal">
+      <div class="option-top"><span class="eyebrow">OPTION 04</span><button class="copy" data-copy="Building Smarter Amazon Seller Operations | Founder &amp; CEO, SellerPro 360 | Software Engineer">Copy</button></div>
+      <h3>Building Smarter Amazon Seller Operations | Founder &amp; CEO, SellerPro 360 | Software Engineer</h3>
+      <p>Shifts from describing credentials to describing the problem Hamza is actively solving.</p>
+    </article>
+<article class="option reveal">
+      <div class="option-top"><span class="eyebrow">OPTION 05</span><button class="copy" data-copy="Founder &amp; CEO, SellerPro 360 | E-commerce Automation &amp; Analytics for Amazon Sellers">Copy</button></div>
+      <h3>Founder &amp; CEO, SellerPro 360 | E-commerce Automation &amp; Analytics for Amazon Sellers</h3>
+      <p>Cleanest executive positioning. It ties the personal brand directly to the company category and buyer.</p>
+    </article></div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-head"><div><div class="eyebrow">04 / About</div><h2>Move from biography to operating thesis.</h2></div>
+  <p class="lede">The current About has strong coverage of capabilities, but it largely describes what the company does. A founder profile can go one step further by explaining how Hamza thinks about the operational problems behind the software.</p></div>
+  <div class="copybox reveal"><span class="eyebrow">Current About</span><p class="current">As CEO of SellerPro 360 Limited, I lead the development of innovative automation and analytics solutions tailored for e-commerce sellers. My work focuses on creating tools for PPC optimization, review management, listing enhancement, and refund tracking. Leveraging cloud services and SaaS expertise, I help streamline operations and enable Amazon sellers to save time and increase efficiency. My role involves guiding product strategy, software development, and platform integration to address complex challenges in e-commerce technology. I am committed to simplifying processes, empowering sellers, and fostering business growth within the competitive online marketplace landscape.</p></div>
+  <div style="height:14px"></div>
+  <div class="copybox reveal"><span class="eyebrow">Paste-ready replacement</span><button class="copy" data-copy="I build software that helps Amazon sellers spend less time managing the machine and more time growing the business.
+
+At SellerPro 360, I lead product, technology, and business growth around practical automation for the day-to-day work sellers deal with: PPC, review requests, listings, refunds, orders, analytics, and marketplace operations.
+
+My background sits at the intersection of software engineering and Amazon operations. I have worked across product development, sourcing, manufacturing coordination, advertising, inventory planning, compliance, launches, and international marketplace operations.
+
+That perspective shapes how I build: start with the operational problem, remove unnecessary manual work, connect the right data, and make the workflow easier to manage.
+
+Today, I am focused on building automation and analytics that give e-commerce teams better control, clearer information, and more time to focus on growth.
+
+If you are building or scaling an e-commerce business and want to talk technology, automation, or marketplace operations, feel free to connect.">Copy About</button><p class="about">I build software that helps Amazon sellers spend less time managing the machine and more time growing the business.
+
+At SellerPro 360, I lead product, technology, and business growth around practical automation for the day-to-day work sellers deal with: PPC, review requests, listings, refunds, orders, analytics, and marketplace operations.
+
+My background sits at the intersection of software engineering and Amazon operations. I have worked across product development, sourcing, manufacturing coordination, advertising, inventory planning, compliance, launches, and international marketplace operations.
+
+That perspective shapes how I build: start with the operational problem, remove unnecessary manual work, connect the right data, and make the workflow easier to manage.
+
+Today, I am focused on building automation and analytics that give e-commerce teams better control, clearer information, and more time to focus on growth.
+
+If you are building or scaling an e-commerce business and want to talk technology, automation, or marketplace operations, feel free to connect.</p></div>
+</section>
+
+<section class="section" id="featured">
+  <div class="section-head"><div><div class="eyebrow">05 / Featured</div><h2>Turn the profile into a proof surface.</h2></div>
+  <p class="lede">The supplied profile capture does not expose the current Featured items, so the recommendation is directional rather than a claim about what is currently installed.</p></div>
+  <div class="grid3"><article class="mini-card reveal"><span class="num">01</span><h3>SellerPro 360 platform</h3><p>Lead with a short product walkthrough or dashboard demo that makes the automation tangible.</p><small>Turns the profile into a product-discovery surface.</small></article>
+<article class="mini-card reveal"><span class="num">02</span><h3>Amazon seller playbook</h3><p>Feature one strong post or PDF explaining a real seller problem, such as PPC automation or reimbursement recovery.</p><small>Shows expertise before asking a visitor to explore the product.</small></article>
+<article class="mini-card reveal"><span class="num">03</span><h3>Build in public</h3><p>Feature a founder post about what Hamza is building, the engineering philosophy behind it, or a new product direction.</p><small>Builds founder credibility and gives the profile a human point of view.</small></article></div>
+</section>
+
+<section class="section" id="banner">
+  <div class="section-head"><div><div class="eyebrow">06 / Banner</div><h2>One job: make the category obvious.</h2></div>
+  <p class="lede">The supplied profile capture does not show the current banner, so there is no reliable basis to critique its existing text. The new direction is built around the strongest verified brand signal: SellerPro 360 is an automation platform for Amazon sellers.</p></div>
+  <div class="banner-note reveal"><div><strong>Building smarter automation for Amazon sellers.</strong><br><span style="color:var(--muted)">Automation • PPC • Reviews • Reimbursements • Analytics</span></div><a href="https://sellerpro360.com/" target="_blank" rel="noopener">View SellerPro 360 ↗</a></div>
+  <p class="lede" style="margin-top:18px">Your new banner is attached separately. It uses the SellerPro 360 orange, black, and white visual language while keeping the message founder-led rather than turning the profile into a product advertisement.</p>
+</section>
+
+<section class="section" id="shift">
+  <div class="section-head"><div><div class="eyebrow">07 / Final shift</div><h2>From broad expertise to a memorable category.</h2></div>
+  <p class="lede">The goal is not to remove Hamza's technical depth. It is to give that depth a clearer destination in the reader's mind.</p></div>
+  <div class="compare">
+    <div class="compare-panel reveal"><span class="eyebrow">Current</span><blockquote>“I build technology and automation across e-commerce.”</blockquote></div>
+    <div class="compare-panel after reveal"><span class="eyebrow">New</span><blockquote>“I build automation that makes Amazon seller operations simpler.”</blockquote></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <strong>LinkedIn Positioning Review · Hamza Kasraoui</strong>
+  <div class="sources">
+    <a href="https://www.linkedin.com/in/hamza-kasraoui" target="_blank" rel="noopener">LinkedIn profile ↗</a><a href="https://sellerpro360.com/" target="_blank" rel="noopener">SellerPro 360 ↗</a><a href="https://www.sellerpro360.com/about" target="_blank" rel="noopener">SellerPro 360 About ↗</a>
+  </div>
+  <p>Claims and recommendations are based on the supplied profile material and publicly available SellerPro 360 / LinkedIn information. Company figures and performance claims are not used as personal proof unless directly relevant and publicly stated.</p>
+</footer>
+</main>
+
+<script>
+const copyButtons = document.querySelectorAll("[data-copy]");
+copyButtons.forEach(btn => {
+  btn.addEventListener("click", async () => {
+    const value = btn.getAttribute("data-copy");
+    try {
+      await navigator.clipboard.writeText(value);
+    } catch(e) {
+      const ta = document.createElement("textarea");
+      ta.value = value; document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove();
+    }
+    const old = btn.textContent; btn.textContent = "Copied"; btn.classList.add("copied");
+    setTimeout(() => { btn.textContent = old; btn.classList.remove("copied"); }, 1400);
+  });
+});
+const reveals = document.querySelectorAll(".reveal");
+const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+  if(entry.isIntersecting) { entry.target.classList.add("visible"); observer.unobserve(entry.target); }
+}), {threshold:.12});
+reveals.forEach(el => observer.observe(el));
+
+const sections = [...document.querySelectorAll("section[id]")];
+const links = [...document.querySelectorAll(".navlinks a")];
+const navObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+  if(entry.isIntersecting) {
+    links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + entry.target.id));
+  }
+}), {rootMargin:"-25% 0px -65% 0px"});
+sections.forEach(s => navObserver.observe(s));
+
+window.addEventListener("scroll", () => {
+  const h = document.documentElement;
+  const p = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  document.getElementById("progress").style.width = p + "%";
+});
+</script>
+</body>
+</html>
